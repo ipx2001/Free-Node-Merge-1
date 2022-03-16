@@ -173,5 +173,19 @@
     "site": "https://pool.jinxnet.xyz",
     "url": "https://pool.jinxnet.xyz/clash/proxies",
     "enabled": true
+  },
+  {
+    "id": 25,
+    "remarks": "codingbox/Free-Node-Merge",
+    "site": "https://github.com/codingbox/",
+    "url": "https://raw.githubusercontent.com/codingbox/Free-Node-Merge/main/node.txt",
+    "enabled": true
+  },
+  {
+    "id": 26,
+    "remarks": "UmeLabs/node.umelabs.dev",
+    "site": "https://node.umelabs.dev",
+    "url": "https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md",
+    "enabled": true
   }
 ]
