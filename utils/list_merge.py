@@ -23,15 +23,20 @@ class sub_merge():
 
         content_list = []
         for index in range(len(url_list)):
-            content = sub_convert.convert(url_list[index]['url'],'url','url')
+            content = sub_convert.convert_remote(url_list[index]['url'],'url')
             ids = url_list[index]['id']
             remarks = url_list[index]['remarks']
             #try:
             if content == 'Url 解析错误':
+                content = sub_convert.convert(sub_merge.read_list(sub_list_json)[index]['url'],'url','url')
+                if content != 'Url 解析错误':
+                    content_list.append(content)
+                    print(f'Writing content of {remarks} to {ids:0>2d}.txt\n')
+                else:
+                    print(f'Writing error of {remarks} to {ids:0>2d}.txt\n')
                 file = open(f'{sub_list_path}{ids:0>2d}.txt', 'w', encoding= 'utf-8')
                 file.write('Url 解析错误')
                 file.close()
-                print(f'Writing error of {remarks} to {ids:0>2d}.txt\n')
             elif content == 'Url 订阅内容无法解析':
                 file = open(f'{sub_list_path}{ids:0>2d}.txt', 'w', encoding= 'utf-8')
                 file.write('Url 订阅内容无法解析')
@@ -52,8 +57,8 @@ class sub_merge():
         print('Merging nodes...\n')
         content_raw = ''.join(content_list) # https://python3-cookbook.readthedocs.io/zh_CN/latest/c02/p14_combine_and_concatenate_strings.html
         content_yaml = sub_convert.convert(content_raw,'content','YAML',{'dup_rm_enabled': False, 'format_name_enabled': True})
-        content_base64 = sub_convert.convert(content_yaml,'content','Base64')
-        content = sub_convert.convert(content_yaml,'content','url')
+        content_base64 = sub_convert.base64_encode(content_yaml)
+        content = content_raw
 
         def content_write(file, output_type):
             file = open(file, 'w', encoding = 'utf-8')
@@ -64,15 +69,18 @@ class sub_merge():
         content_type = (content, content_base64, content_yaml)
         for index in range(len(write_list)):
             content_write(write_list[index], content_type[index])
-        print('Done!')
+        print('Done!\n')
 
-    def read_list(json_file): # 将 sub_list.json Url 内容读取为列表
+    def read_list(json_file,remote=False): # 将 sub_list.json Url 内容读取为列表
         with open(json_file, 'r', encoding='utf-8') as f:
             raw_list = json.load(f)
         input_list = []
         for index in range(len(raw_list)):
             if raw_list[index]['enabled']:
-                urls = re.split('\|',raw_list[index]['url'])
+                if remote == False:
+                    urls = re.split('\|',raw_list[index]['url'])
+                else:
+                    urls = raw_list[index]['url']
                 raw_list[index]['url'] = urls
                 input_list.append(raw_list[index])
         return input_list
@@ -94,8 +102,8 @@ class sub_merge():
         # 获得当前名单及各仓库节点数量
         with open('./sub/sub_merge.txt', 'r', encoding='utf-8') as f:
             total = len(f.readlines())
-            total = f'当前合并节点总数: `{total}`\n'
-        thanks = [total]
+            total = f'合并节点总数: `{total}`\n'
+        thanks = []
         repo_amount_dic = {}
         for repo in sub_list:
             line = ''
@@ -118,8 +126,9 @@ class sub_merge():
                 thanks.append(line)
 
         # 鸣谢名单打印
+        
         for index in range(len(lines)):
-            if lines[index] == '### 鸣谢名单\n':
+            if lines[index] == '### 节点来源\n':
                 # 清除旧内容
                 while lines[index+1] != '\n':
                     lines.pop(index+1)
@@ -128,15 +137,36 @@ class sub_merge():
                     index +=1
                     lines.insert(index, i)
                 break
-
-        # 当前节点打印
+        # 合并节点打印
         for index in range(len(lines)):
-            if lines[index] == '  <summary>展开复制节点</summary>\n': # 目标行内容
+            if lines[index] == '### 所有节点\n': # 目标行内容
                 # 清除旧内容
-                lines.pop(index-3) # 删除节点数量
-                index -= 1 # 使 index 所指内容不变
-                while lines[index+2] != '\n':
-                    lines.pop(index+2)
+                lines.pop(index+1) # 删除节点数量
+                while lines[index+4] != '\n':
+                    lines.pop(index+4)
+
+                with open('./sub/sub_merge.txt', 'r', encoding='utf-8') as f:
+                    proxies = f.read()
+                    proxies = proxies.split('\n')
+                    proxies = ['    '+proxy for proxy in proxies]
+                    proxies = [proxy+'\n' for proxy in proxies]
+                top_amount = len(proxies) - 1
+                
+                lines.insert(index+1, f'合并节点数量: `{top_amount}`\n')
+                """
+                index += 5
+                for i in proxies:
+                    index += 1
+                    lines.insert(index, i)
+                """
+                break
+        # 高速节点打印
+        for index in range(len(lines)):
+            if lines[index] == '### 高速节点\n': # 目标行内容
+                # 清除旧内容
+                lines.pop(index+1) # 删除节点数量
+                while lines[index+4] != '\n':
+                    lines.pop(index+4)
 
                 with open('./Eternity', 'r', encoding='utf-8') as f:
                     proxies_base64 = f.read()
@@ -146,8 +176,8 @@ class sub_merge():
                     proxies = [proxy+'\n' for proxy in proxies]
                 top_amount = len(proxies) - 1
                 
-                lines.insert(index-2, f'当前节点数量: `{top_amount}`\n')
-                index += 2
+                lines.insert(index+1, f'高速节点数量: `{top_amount}`\n')
+                index += 4
                 for i in proxies:
                     index += 1
                     lines.insert(index, i)
@@ -164,5 +194,6 @@ if __name__ == '__main__':
     sub_merge.geoip_update('https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb')
 
     sub_list = sub_merge.read_list(sub_list_json)
-    sub_merge.sub_merge(sub_list)
+    sub_list_remote = sub_merge.read_list(sub_list_json,True)
+    sub_merge.sub_merge(sub_list_remote)
     sub_merge.readme_update(readme,sub_list)
