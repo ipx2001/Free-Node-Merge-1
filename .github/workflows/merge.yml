@@ -7,7 +7,7 @@ on:
   schedule:
     # - cron: '*/5 * * * *'
     # 表达式生成  https://crontab.guru/
-    - cron: '11 3,9,15,21 * * *'
+    - cron: '0 3,9,15,21 * * *'
 
 jobs:
   deploy:
@@ -32,8 +32,6 @@ jobs:
       run: |
         pip install -r ./utils/requirements.txt
     - name: 执行任务
-      # env:
-      #   CONFIG: ${{ secrets.CONFIG }}
       run: |
         python ./utils/list_merge.py
       
@@ -41,6 +39,7 @@ jobs:
       run: |                 
          git config --local user.email "actions@github.com"
          git config --local user.name "GitHub Actions"
+         git pull origin main
          git add ./sub
          git add ./utils
          git add README.md
@@ -48,5 +47,4 @@ jobs:
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
-         # github_token: ${{ secrets.TOKEN }}
          branch: main
