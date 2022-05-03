@@ -1,12 +1,15 @@
-name: eternity_convert
+name: speedtest
 
 # 触发条件
 on:
+  workflow_dispatch:
+
   push:
     paths:
-      - 'Eternity'
-      
-  workflow_dispatch:
+      - './sub/sub_merge_base64.txt'
+  schedule:
+    - cron: '30 */4 * * *'
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -29,18 +32,24 @@ jobs:
     - name: 安装依赖
       run: |
         pip install -r ./utils/requirements.txt
-    - name: 执行任务
+    - name: speedtest
       run: |
+        chmod +x ./utils/speedtest/litespeedtest
+        ./utils/speedtest/litespeedtest --config ./utils/speedtest/config.json --test https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt
+        python ./utils/speedtest/output.py
         python ./utils/eternity_convert.py
-    - name: 提交更改
+    - name: commit
       run: |                 
          git config --local user.email "actions@github.com"
          git config --local user.name "GitHub Actions"
+         git pull origin main
+         git add Eternity
          git add Eternity.yml
          git add README.md
-         git add ./update/provider
-         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新订阅链接"
+         git add ./update/*
+         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')筛选节点"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
+         # github_token: ${{ secrets.TOKEN }}
          branch: main
