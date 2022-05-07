@@ -134,39 +134,39 @@
 </details>
 
 ### 所有节点
-合并节点总数: `7250`
+合并节点总数: `7229`
 [节点链接](https://raw.githubusercontent.com/arlenWKX/Free-Node-Merge/main/sub/sub_merge.txt)
 
 ### 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `72`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `61`
 - [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `198`
-- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `160`
-- [freefq/free](https://github.com/freefq/free), 节点数量: `55`
-- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `181`
+- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `146`
+- [freefq/free](https://github.com/freefq/free), 节点数量: `57`
+- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `140`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `100`
-- [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `78`
+- [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `60`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `42`
 - [ssrsub/ssr](https://github.com/ssrsub/ssr), 节点数量: `44`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `2445`
-- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `253`
+- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `282`
 - [alanbobs999/TopFreeProxies](https://github.com/alanbobs999/TopFreeProxies), 节点数量: `99`
-- [ldir92664/Vmess-Actions](https://github.com/ldir92664/Vmess-Actions), 节点数量: `84`
+- [ldir92664/Vmess-Actions](https://github.com/ldir92664/Vmess-Actions), 节点数量: `82`
 - [gooooooooooooogle/Clash-Config](https://github.com/gooooooooooooogle/Clash-Config), 节点数量: `42`
 - [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `158`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `145`
-- [wrfree/free](https://github.com/wrfree/free), 节点数量: `55`
-- [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish), 节点数量: `79`
+- [wrfree/free](https://github.com/wrfree/free), 节点数量: `57`
+- [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish), 节点数量: `132`
 - [ObcbO/auto-subscribe](https://github.com/ObcbO/auto-subscribe), 节点数量: `0`
 - [tomdegnan/clashrule](https://github.com/tomdegnan/clashrule), 节点数量: `214`
 - [TG@getv2ray](https://t.me/getv2ray), 节点数量: `7`
 - [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `902`
-- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `244`
+- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `319`
 - [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `193`
 - [KYLELI1991/subscription_vless](https://github.com/KYLELI1991/subscription_vless), 节点数量: `1`
-- [mhmhone/shadowrocket-free-subscribe](https://github.com/mhmhone/shadowrocket-free-subscribe), 节点数量: `34`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `65`
+- [mhmhone/shadowrocket-free-subscribe](https://github.com/mhmhone/shadowrocket-free-subscribe), 节点数量: `37`
+- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `57`
 - [moneyfly1/sublist](https://github.com/moneyfly1/sublist), 节点数量: `32`
-- [poduv/poduv](https://github.com/poduv/poduv), 节点数量: `26`
+- [poduv/poduv](https://github.com/poduv/poduv), 节点数量: `103`
 - [ok1991/v2ray](https://github.com/ok1991/v2ray), 节点数量: `134`
 - [parkerpa/jsfxs](https://github.com/parkerpa/jsfxs), 节点数量: `582`
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `0`
@@ -176,9 +176,9 @@
 - [umelabs/node.umelabs.dev](https://github.com/umelabs/node.umelabs.dev), 节点数量: `5`
 - [电报群分享:https://t.me/abc999222/392205](https://t.me/abc999222/392205), 节点数量: `0`
 - [ThekingMX1998/free-v2ray-code](https://github.com/ThekingMX1998/free-v2ray-code), 节点数量: `0`
-- [Mattkaydiary](https://www.mattkaydiary.com), 节点数量: `42`
-- [v2raydy/v2ray](https://github.com/v2raydy/v2ray), 节点数量: `125`
-- [电报群分享(https://t.me/Jsnzk/4664)节点池](https://pool.jinxnet.xyz), 节点数量: `0`
+- [Mattkaydiary](https://www.mattkaydiary.com), 节点数量: `1`
+- [v2raydy/v2ray](https://github.com/v2raydy/v2ray), 节点数量: `1`
+- [电报群分享(https://t.me/Jsnzk/4664)节点池](https://pool.jinxnet.xyz), 节点数量: `1`
 
 ## 客户端选择
 ### 主流桌面客户端
