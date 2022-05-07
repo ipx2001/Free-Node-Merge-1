@@ -1,13 +1,13 @@
 # Free Node Merge
 
-## 仓库介绍
-修改自[alanbobs999/TopFreeProxies](https://github.com/alanbobs999/TopFreeProxies)
+## Introduction
+Modified from [alanbobs999/TopFreeProxies](https://github.com/alanbobs999/TopFreeProxies)
 
-对网络上各免费节点池及博主分享的节点进行测速筛选出较为稳定高速的节点，再导入到仓库中进行分享记录。所筛选的节点链接在仓库`./sub/sub_list.json`文件中，其中大部分为其他`GitHub`仓库链接，如果大家有好的订阅链接欢迎提交 PR ，这些链接包含的所有节点合并在仓库`./sub/sub_merge.txt`中。
+It measures the speed of free nodes on the network and import the stable and high-speed nodes into the repository for sharing records. Node links are in `./sub/sub_list.json`.
 
-测速筛选后的节点订阅文件在仓库根目录`Eterniy`(Base64)和`Eternity.yml`(Clash)。同时在仓库的`./update`中保留了原始节点链接的的记录。
+The filtered node subscription is in `Eterniy`(Base64) and `Eternity.yml`(for Clash) in the root directory. A record of the original node link is kept in `./update`.
 
-虽然是测速筛选过后的节点，但仍然会出现部分节点不可用的情况，遇到这种情况建议选择`Clash`, `Shadowrocket`之类能自动切换低延迟节点的客户端。
+Although the nodes are filtered, some nodes will still be unavailable. In this case, you can choose a proxy client that can automatically switch low-latency nodes like `Clash`, `Shadowrocket`, etc..
 
 ## 使用方法
 将以下订阅链接导入相应客户端即可。链接中大部分为 SS 协议节点，少量 Vmess, Trojan ,SSR 协议节点，建议选择协议支持完整的客户端。
