@@ -342,5 +342,21 @@
     "url": "https://pool.jinxnet.xyz/clash/proxies",
     "update_method": "auto",
     "enabled": true
+  },
+  {
+    "id": 43,
+    "remarks": "codingbox/Free-Node-Merge",
+    "site": "https://github.com/codingbox/",
+    "url": "https://raw.githubusercontent.com/codingbox/Free-Node-Merge/main/node.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 44,
+    "remarks": "二爷 f q",
+    "site": "https://1808.ga/",
+    "url": "https://jiang.netlify.app/",
+    "update_method": "auto",
+    "enabled": true
   }
 ]
