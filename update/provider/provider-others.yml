@@ -1,25 +1,14 @@
 proxies:
-  - {name: 🇰🇷KR-193.122.121.38-01, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true}
-  - {name: 🇯🇵JP-150.230.213.26-04, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true}
-  - {name: 🇯🇵JP-150.230.213.26-15, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true}
-  - {name: 🇨🇦CA-91.193.6.66-48, server: 91.193.6.66, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
-  - {name: 🇻🇳VN-192.186.129.66-54, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇻🇳VN-192.186.129.66-56, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇯🇵JP-150.230.96.103-63, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
-  - {name: 🇯🇵JP-20.89.98.239-67, server: 20.89.98.239, port: 80, type: vmess, uuid: ff02bc2f-dcc5-4be1-f7ed-886345c89ab2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 20.89.98.239}}
-  - {name: 🇯🇵JP-150.230.107.75-71, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, skip-cert-verify: true}
-  - {name: 🇯🇵JP-150.230.60.59-74, server: 150.230.60.59, port: 39072, type: vmess, uuid: 37e65b6d-fc4a-435f-9f1c-4ec58fec8e13, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ws, tls: false, ws-headers: {Host: viibah6u.com}}
-  - {name: 🇯🇵JP-138.2.15.143-75, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, skip-cert-verify: true}
-  - {name: 🇯🇵JP-138.2.45.243-77, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true}
-  - {name: 🇯🇵JP-150.230.60.59-79, server: 150.230.60.59, port: 39072, type: vmess, uuid: 37e65b6d-fc4a-435f-9f1c-4ec58fec8e13, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 150.230.60.59}}
-  - {name: 🇯🇵JP-150.230.60.59-80, server: 150.230.60.59, port: 39072, type: vmess, uuid: 37e65b6d-fc4a-435f-9f1c-4ec58fec8e13, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 104.168.13.8}}
-  - {name: 🇯🇵JP-150.230.60.59-82, server: 150.230.60.59, port: 39072, type: vmess, uuid: 37e65b6d-fc4a-435f-9f1c-4ec58fec8e13, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /getweather, tls: false, ws-headers: {Host: app.ssfree.ru}}
-  - {name: 🇯🇵JP-45.142.167.26-85, server: ty2-6.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true}
-  - {name: 🇻🇳VN-192.186.129.66-86, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇯🇵JP-150.230.213.26-87, server: free.spcloud.us, port: 20010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true}
-  - {name: 🇯🇵JP-192.243.120.132-88, server: hilink.vp2p.online, port: 57942, type: vmess, uuid: ef8ac6e8-128f-440d-db1e-5de33f79576e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /34fgryhbgv/, tls: true, ws-headers: {Host: hilink.vp2p.online}}
-  - {name: 🇯🇵JP-152.69.204.149-89, server: 152.69.204.149, port: 50503, type: vmess, uuid: 11b8a8c2-3548-4424-88f8-26cde886230a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 152.69.204.149}}
-  - {name: 🇯🇵JP-152.69.204.149-91, server: 152.69.204.149, port: 50503, type: vmess, uuid: 11b8a8c2-3548-4424-88f8-26cde886230a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ws, tls: false, ws-headers: {Host: viibah6u.com}}
-  - {name: 🇰🇷KR-61.111.128.153-92, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss}
-  - {name: 🇯🇵JP-150.230.60.59-96, server: 150.230.60.59, port: 39072, type: vmess, uuid: 37e65b6d-fc4a-435f-9f1c-4ec58fec8e13, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ray, tls: false, ws-headers: {Host: xa.ex306.buzz}}
+  - {name: 🇻🇳VN-192.186.129.66-47, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇻🇳VN-192.186.129.66-48, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇻🇳VN-192.186.129.66-50, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇨🇦CA-91.193.6.66-59, server: 91.193.6.66, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
+  - {name: 🇨🇦CA-91.193.6.66-60, server: 91.193.6.66, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
+  - {name: 🇨🇦CA-91.193.6.66-65, server: 91.193.6.66, port: 50004, type: ss, cipher: aes-256-cfb, password: 4415934295}
+  - {name: 🇻🇳VN-192.186.129.66-80, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇻🇳VN-192.186.129.66-85, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇯🇵JP-45.142.167.25-91, server: ty2-5.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true}
+  - {name: 🇯🇵JP-45.142.167.23-92, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, skip-cert-verify: true}
+  - {name: 🇻🇳VN-192.186.129.66-93, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇮🇪IE-54.228.42.199-94, server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /f495ba1f, tls: true, ws-headers: {Host: lluucc3.herokuapp.com}}
   
