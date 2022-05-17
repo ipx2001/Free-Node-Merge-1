@@ -1,1 +1,2 @@
 proxies:
+  - {name: 🇭🇰HK-20.24.225.24-98, server: hk-ii.sserver.top, port: 80, type: vmess, uuid: 8d0ceab5-1008-300f-996f-0751e11038f1, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: false, ws-headers: {Host: hk-ii.sserver.top}}
