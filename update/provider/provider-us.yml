@@ -1,64 +1,57 @@
 proxies:
-  - {name: 🇺🇸US-192.96.204.250-00, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: 🇺🇸US-192.96.204.250-00, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-washington.lvuft.com}}
   - {name: 🇺🇸US-208.98.48.2-01, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: iesei1ei.com}}
-  - {name: 🇺🇸US-45.35.84.162-03, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸US-192.96.204.250-02, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: 🇺🇸US-104.224.141.225-03, server: 104.224.141.225, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: CfoR1yRJprop}
   - {name: 🇺🇸US-45.35.84.162-04, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
   - {name: 🇺🇸US-45.35.84.162-05, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸US-192.96.204.250-06, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: 🇺🇸US-45.35.84.162-07, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸US-104.224.141.225-08, server: 104.224.141.225, port: 700, type: ss, cipher: chacha20-ietf-poly1305, password: CfoR1yRJprop}
-  - {name: 🇺🇸US-192.96.204.250-09, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: 🇺🇸US-45.35.84.162-11, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸US-45.32.94.249-12, server: 45.32.94.249, port: 29589, type: vmess, uuid: 63db045c-d921-4683-a063-d3cb3a16a1b0, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /a3dHxNiS/, tls: false, ws-headers: {Host: 45.32.94.249}}
-  - {name: 🇺🇸US-170.178.208.59-13, server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556, skip-cert-verify: true}
-  - {name: 🇺🇸US-170.178.208.59-14, server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556, skip-cert-verify: true}
-  - {name: 🇺🇸US-104.168.68.93-15, server: us-ny-rn.licom.ga, port: 62008, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: us-ny-rn.licom.ga}}
+  - {name: 🇺🇸US-45.35.84.162-09, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸US-129.146.242.130-11, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true}
+  - {name: 🇺🇸US-129.146.242.130-12, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true}
+  - {name: 🇺🇸US-192.96.204.250-13, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: 🇺🇸US-161.8.149.7-14, server: 161.8.149.7, port: 38822, type: vmess, uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ZXfq8Vm7/, tls: false, ws-headers: {Host: 161.8.149.7}}
+  - {name: 🇺🇸US-161.8.149.7-15, server: 161.8.149.7, port: 38822, type: vmess, uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ZXfq8Vm7/, tls: false, ws-headers: {Host: 161.8.149.7}}
   - {name: 🇺🇸US-45.32.94.249-16, server: 45.32.94.249, port: 29589, type: vmess, uuid: 63db045c-d921-4683-a063-d3cb3a16a1b0, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /a3dHxNiS/, tls: false, ws-headers: {Host: 45.32.94.249}}
-  - {name: 🇺🇸US-45.32.94.249-17, server: 45.32.94.249, port: 29589, type: vmess, uuid: 63db045c-d921-4683-a063-d3cb3a16a1b0, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /a3dHxNiS/, tls: false, ws-headers: {Host: 45.32.94.249}}
-  - {name: 🇺🇸US-161.8.149.7-18, server: 161.8.149.7, port: 38822, type: vmess, uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ZXfq8Vm7/, tls: false, ws-headers: {Host: 161.8.149.7}}
-  - {name: 🇺🇸US-129.146.242.130-20, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true}
-  - {name: 🇺🇸US-104.243.25.95-21, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
-  - {name: 🇺🇸US-208.109.189.58-22, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
-  - {name: 🇺🇸US-208.109.189.58-23, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
-  - {name: 🇺🇸US-129.146.255.158-24, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true}
-  - {name: 🇺🇸US-129.146.190.42-25, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true}
+  - {name: 🇺🇸US-208.109.188.195-17, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-208.109.189.58-18, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-208.109.189.58-19, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-208.109.189.58-20, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-208.109.189.58-21, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-170.178.208.59-22, server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556, skip-cert-verify: true}
+  - {name: 🇺🇸US-104.243.25.95-24, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 🇺🇸US-164.92.99.255-25, server: 164.92.99.255, port: 46499, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
   - {name: 🇺🇸US-164.92.115.89-26, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-164.92.99.255-27, server: 164.92.99.255, port: 46499, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-129.146.190.42-28, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true}
-  - {name: 🇺🇸US-164.92.115.89-29, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-164.92.115.63-30, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-164.92.115.63-31, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-45.35.84.162-32, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸US-208.109.189.58-33, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
-  - {name: 🇺🇸US-208.109.189.58-34, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-192.3.255.28-27, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+  - {name: 🇺🇸US-192.3.255.28-28, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+  - {name: 🇺🇸US-164.92.115.63-29, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.115.89-30, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-45.35.84.162-31, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸US-192.96.204.250-32, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: 🇺🇸US-208.109.188.195-33, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-170.178.208.59-34, server: lsj03.wangxd.life, port: 3052, type: trojan, password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556, skip-cert-verify: true}
   - {name: 🇺🇸US-164.92.115.89-36, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-104.243.25.95-37, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
-  - {name: 🇺🇸US-164.92.115.63-38, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-192.3.255.28-39, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
-  - {name: 🇺🇸US-208.109.189.58-41, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
-  - {name: 🇺🇸US-164.92.115.89-42, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-155.248.202.203-43, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 155.248.202.203}}
-  - {name: 🇺🇸US-198.2.200.116-44, server: 198.2.200.116, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /path/181012123433, tls: true, ws-headers: {Host: www.68478520.xyz}}
-  - {name: 🇺🇸US-198.2.200.116-45, server: 198.2.200.116, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /path/181012123433, tls: true, ws-headers: {Host: www.68478520.xyz}}
-  - {name: 🇺🇸US-164.92.99.255-46, server: 164.92.99.255, port: 46499, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-155.248.202.203-47, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: hk-c3.myuuusss.com}}
-  - {name: 🇺🇸US-155.248.202.203-48, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 155.248.202.203}}
-  - {name: 🇺🇸US-155.248.202.203-49, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /tls, tls: false, ws-headers: {Host: 155.248.202.203}}
-  - {name: 🇺🇸US-164.92.107.59-50, server: 164.92.107.59, port: 16455, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.115.63-37, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-208.109.189.58-39, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-192.3.255.28-40, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+  - {name: 🇺🇸US-208.109.188.195-41, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-208.109.188.195-46, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-104.168.68.93-47, server: us-ny-rn.licom.ga, port: 62008, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: us-ny-rn.licom.ga}}
+  - {name: 🇺🇸US-164.92.115.89-48, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
   - {name: 🇺🇸US-164.92.115.63-51, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-164.92.115.63-53, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-208.109.189.58-54, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
-  - {name: 🇺🇸US-164.92.99.255-57, server: 164.92.99.255, port: 46499, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-155.248.202.203-59, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ws, tls: false, ws-headers: {Host: 155.248.202.203}}
-  - {name: 🇺🇸US-155.248.202.203-61, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 155.248.202.203}}
-  - {name: 🇺🇸US-164.92.115.63-82, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-164.92.115.89-83, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-155.248.202.203-85, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /happy, tls: false, ws-headers: {Host: v2ray.788644.xyz}}
-  - {name: 🇺🇸US-164.92.115.63-87, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-164.92.99.255-89, server: 164.92.99.255, port: 46499, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-192.3.255.28-90, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
-  - {name: 🇺🇸US-104.243.25.95-92, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 🇺🇸US-164.92.115.63-59, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-208.109.189.58-66, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: 🇺🇸US-164.92.115.89-68, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-172.64.195.7-70, server: app.ssfree.ru, port: 443, type: vmess, uuid: 52aa8660-d7f1-11ec-9cb7-000017022008, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
+  - {name: 🇺🇸US-164.92.107.59-71, server: 164.92.107.59, port: 16455, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.115.63-73, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-172.64.194.7-75, server: app.ssfree.ru, port: 443, type: vmess, uuid: 52aa8660-d7f1-11ec-9cb7-000017022008, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
+  - {name: 🇺🇸US-164.92.99.255-87, server: 164.92.99.255, port: 46499, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.107.59-89, server: 164.92.107.59, port: 16455, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.115.63-90, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.107.59-91, server: 164.92.107.59, port: 16455, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
   - {name: 🇺🇸US-164.92.115.89-93, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-164.92.115.89-94, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
-  - {name: 🇺🇸US-154.94.214.2-96, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: lvuft.com}}
-  - {name: 🇺🇸US-155.248.202.203-98, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 155.248.202.203}}
+  - {name: 🇺🇸US-164.92.115.63-94, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-172.64.194.7-95, server: app.ssfree.ru, port: 443, type: vmess, uuid: 52aa8660-d7f1-11ec-9cb7-000017022008, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /getweather, tls: true, ws-headers: {Host: app.ssfree.ru}}
+  - {name: 🇺🇸US-164.92.115.89-96, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.115.63-97, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
+  - {name: 🇺🇸US-164.92.115.89-98, server: 164.92.115.89, port: 31254, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526}
