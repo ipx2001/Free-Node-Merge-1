@@ -1,8 +1,17 @@
 proxies:
-  - {name: 🏁RELAY-104.21.72.236-33, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /go, tls: true, ws-headers: {Host: us02.gogogoo.cyou}}
-  - {name: 🏁RELAY-104.21.72.236-42, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /go, tls: true, ws-headers: {Host: us02.gogogoo.cyou}}
-  - {name: 🏁RELAY-104.21.72.236-44, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /go, tls: true, ws-headers: {Host: us02.gogogoo.cyou}}
-  - {name: 🇻🇳VN-192.186.129.66-74, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇻🇳VN-192.186.129.66-75, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇻🇳VN-192.186.129.66-87, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇻🇳VN-192.186.129.66-55, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇻🇳VN-192.186.129.66-56, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇯🇵JP-150.230.217.213-74, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true}
+  - {name: 🇯🇵JP-150.230.96.103-76, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.44.176-81, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.43.89-82, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
+  - {name: 🇯🇵JP-168.138.43.89-83, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
+  - {name: 🇯🇵JP-138.2.45.243-85, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true}
+  - {name: 🇰🇷KR-146.56.112.141-90, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 146.56.112.141}}
+  - {name: 🇰🇷KR-52.78.214.4-91, server: 52.78.214.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷KR-52.78.214.4-92, server: 52.78.214.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇳🇱NL-23.94.120.19-95, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: fhcamd2.gaox.ml}}
+  - {name: 🇦🇺AU-140.238.198.139-96, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, skip-cert-verify: true}
+  - {name: 🇦🇺AU-140.238.198.139-97, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, skip-cert-verify: true}
+  - {name: 🇮🇪IE-34.241.115.67-98, server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /f495ba1f, tls: true, ws-headers: {Host: lluucc3.herokuapp.com}}
   
