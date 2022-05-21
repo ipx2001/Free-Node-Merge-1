@@ -1,17 +1,39 @@
 proxies:
-  - {name: 🇻🇳VN-192.186.129.66-55, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇻🇳VN-192.186.129.66-56, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇯🇵JP-150.230.217.213-74, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true}
-  - {name: 🇯🇵JP-150.230.96.103-76, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
-  - {name: 🇯🇵JP-168.138.44.176-81, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true}
-  - {name: 🇯🇵JP-168.138.43.89-82, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
-  - {name: 🇯🇵JP-168.138.43.89-83, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true}
-  - {name: 🇯🇵JP-138.2.45.243-85, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true}
-  - {name: 🇰🇷KR-146.56.112.141-90, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 146.56.112.141}}
-  - {name: 🇰🇷KR-52.78.214.4-91, server: 52.78.214.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷KR-52.78.214.4-92, server: 52.78.214.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇳🇱NL-23.94.120.19-95, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: fhcamd2.gaox.ml}}
-  - {name: 🇦🇺AU-140.238.198.139-96, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, skip-cert-verify: true}
-  - {name: 🇦🇺AU-140.238.198.139-97, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, skip-cert-verify: true}
-  - {name: 🇮🇪IE-34.241.115.67-98, server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /f495ba1f, tls: true, ws-headers: {Host: lluucc3.herokuapp.com}}
+  - {name: 🇻🇳VN-192.186.129.66-07, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇻🇳VN-192.186.129.66-13, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ws, tls: true, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇨🇦CA-51.161.118.38-23, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧GB-140.238.87.136-24, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true}
+  - {name: 🇬🇧GB-140.238.71.244-26, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true}
+  - {name: 🇨🇦CA-72.140.224.197-27, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧GB-140.238.71.244-29, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true}
+  - {name: 🇨🇦CA-72.140.224.195-31, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.195-32, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.197-35, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.195-36, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱NL-20.123.187.212-37, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /index, tls: false, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇨🇦CA-72.140.224.195-38, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.197-39, server: 72.140.224.197, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.197-40, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱NL-37.218.247.88-43, server: 37.218.247.88, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YbOE6O1uwbUv}
+  - {name: 🇨🇦CA-72.140.224.195-44, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.197-45, server: 72.140.224.197, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.197-48, server: 72.140.224.197, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱NL-37.218.247.88-50, server: 37.218.247.88, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YbOE6O1uwbUv}
+  - {name: 🇨🇦CA-72.140.224.195-51, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧GB-132.145.50.184-54, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true}
+  - {name: 🇨🇦CA-72.140.224.195-58, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇬🇧GB-132.145.50.184-59, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true}
+  - {name: 🇩🇪DE-78.46.244.34-64, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: douyincdn.com}}
+  - {name: 🇩🇪DE-78.46.244.34-66, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: douyincdn.com}}
+  - {name: 🇳🇱NL-37.218.247.88-71, server: 37.218.247.88, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YbOE6O1uwbUv}
+  - {name: 🇳🇱NL-154.84.1.154-78, server: 154.84.1.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /path/181012123433, tls: true, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 🇨🇦CA-72.140.224.197-84, server: 72.140.224.197, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-51.161.118.38-87, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱NL-213.183.59.185-88, server: 213.183.59.185, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
+  - {name: 🇨🇦CA-72.140.224.197-89, server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-51.161.118.38-91, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.195-92, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦CA-72.140.224.195-93, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱NL-20.123.187.212-95, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 20.123.187.212}}
+  - {name: 🇳🇱NL-20.123.187.212-96, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 20.123.187.212}}
   
