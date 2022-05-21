@@ -1,1 +1,5 @@
 proxies:
+  - {name: 🇭🇰HK-43.231.0.172-79, server: gy.gothy.cyou, port: 14401, type: vmess, uuid: 220fc318-ff76-4a26-9ab8-cf8c0e294995, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: gy.gothy.cyou}}
+  - {name: 🇭🇰HK-43.231.0.172-89, server: gy.gothy.cyou, port: 14401, type: vmess, uuid: 220fc318-ff76-4a26-9ab8-cf8c0e294995, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: gy.gothy.cyou}}
+  - {name: 🇭🇰HK-43.231.0.172-93, server: gy.gothy.cyou, port: 14401, type: vmess, uuid: 220fc318-ff76-4a26-9ab8-cf8c0e294995, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: gy.gothy.cyou}}
+  - {name: 🇭🇰HK-43.231.0.172-94, server: gy.gothy.cyou, port: 14401, type: vmess, uuid: 220fc318-ff76-4a26-9ab8-cf8c0e294995, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: gy.gothy.cyou}}
