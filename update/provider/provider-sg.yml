@@ -1,14 +1,11 @@
 proxies:
-  - {name: 🇸🇬SG-13.215.179.210-70, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
-  - {name: 🇸🇬SG-13.215.179.210-71, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
-  - {name: 🇸🇬SG-188.166.245.14-72, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
-  - {name: 🇸🇬SG-13.215.179.210-73, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
-  - {name: 🇸🇬SG-168.138.181.32-80, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
-  - {name: 🇸🇬SG-168.138.177.112-81, server: 168.138.177.112, port: 41239, type: vmess, uuid: f962092f-a5b7-4011-eaaa-ae52200a3740, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ray, tls: false, ws-headers: {Host: 168.138.177.112}}
-  - {name: 🇸🇬SG-168.138.181.32-85, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
+  - {name: 🇸🇬SG-188.166.245.14-82, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+  - {name: 🇸🇬SG-13.215.179.210-83, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-138.2.66.167-84, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: sg.guiqing.ml}}
+  - {name: 🇸🇬SG-13.215.179.210-85, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
   - {name: 🇸🇬SG-168.138.181.32-87, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
-  - {name: 🇸🇬SG-168.138.181.32-88, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
-  - {name: 🇸🇬SG-168.138.181.32-92, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
-  - {name: 🇸🇬SG-103.172.116.8-94, server: 103.172.116.8, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
-  - {name: 🇸🇬SG-138.2.66.167-95, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /index, tls: false, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇸🇬SG-81.90.188.59-98, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /sometimesnaive, tls: false, ws-headers: {Host: node.gkddd.buzz}}
+  - {name: 🇸🇬SG-13.215.179.210-88, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-13.215.179.210-93, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-168.138.181.32-95, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
+  - {name: 🇸🇬SG-138.2.66.167-97, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ws, tls: false, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇸🇬SG-168.138.181.32-98, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
