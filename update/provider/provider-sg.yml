@@ -1,2 +1,14 @@
 proxies:
-  - {name: 🇸🇬SG-13.215.179.210-98, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-139.162.59.41-65, server: 139.162.59.41, port: 80, type: vmess, uuid: 326e1c01-dfd7-4265-a086-be64e17c63e6, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /giare, tls: false, ws-headers: {Host: 139.162.59.41}}
+  - {name: 🇸🇬SG-13.215.179.210-67, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-188.166.245.14-68, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+  - {name: 🇸🇬SG-13.215.179.210-70, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-13.215.179.210-71, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-13.215.179.210-73, server: sgp02.sharecentre.xyz, port: 58309, type: vmess, uuid: 4e245edd-629d-4cb3-afca-321dea87aad5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sgp02.sharecentre.xyz}}
+  - {name: 🇸🇬SG-168.138.181.32-76, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
+  - {name: 🇸🇬SG-168.138.177.112-77, server: 168.138.177.112, port: 41239, type: vmess, uuid: f962092f-a5b7-4011-eaaa-ae52200a3740, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ray, tls: false, ws-headers: {Host: 426hk.fans8.xyz}}
+  - {name: 🇸🇬SG-168.138.181.32-82, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
+  - {name: 🇸🇬SG-168.138.181.32-86, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
+  - {name: 🇸🇬SG-168.138.181.32-87, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
+  - {name: 🇸🇬SG-103.172.116.8-88, server: 103.172.116.8, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇸🇬SG-138.2.66.167-91, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /index, tls: false, ws-headers: {Host: www.baidu.com}}
