@@ -1,1 +1,3 @@
 proxies:
+  - {name: 🇭🇰HK-42.3.74.120-94, server: hkt2.xcv2r.com, port: 33232, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hkt2.xcv2r.com}}
+  - {name: 🇭🇰HK-42.3.74.120-96, server: hkt2.xcv2r.com, port: 33232, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hkt2.xcv2r.com}}
