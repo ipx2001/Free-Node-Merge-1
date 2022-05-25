@@ -1,4 +1,1 @@
 proxies:
-  - {name: 🇭🇰HK-20.239.67.42-80, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40053, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, skip-cert-verify: true}
-  - {name: 🇭🇰HK-20.239.248.20-85, server: azhk.orange7.cf, port: 39719, type: trojan, password: 9cb14d0f-9a55-426e-9f04-905ca30cf3ee, skip-cert-verify: true}
-  - {name: 🇭🇰HK-182.160.12.239-86, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /6129CFHR, tls: false, ws-headers: {Host: 182.160.12.239}}

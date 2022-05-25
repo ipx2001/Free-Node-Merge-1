@@ -1,3 +1,1 @@
 proxies:
-  - {name: 🇸🇬SG-18.140.64.13-97, server: sgp.sharecentre.xyz, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
-  - {name: 🇸🇬SG-188.166.245.14-98, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
