@@ -1,6 +1,3 @@
 proxies:
-  - {name: 🇸🇬SG-188.166.245.14-87, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
-  - {name: 🇸🇬SG-18.141.184.65-92, server: 18.141.184.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬SG-188.166.245.14-93, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
-  - {name: 🇸🇬SG-5.44.249.43-95, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true}
-  - {name: 🇸🇬SG-5.44.249.43-98, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true}
+  - {name: 🇸🇬SG-18.140.64.13-97, server: sgp.sharecentre.xyz, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+  - {name: 🇸🇬SG-188.166.245.14-98, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
