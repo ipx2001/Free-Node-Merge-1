@@ -1,2 +1,3 @@
 proxies:
-  - {name: 🇭🇰HK-182.160.12.239-42, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /6129CFHR, tls: false, ws-headers: {Host: 182.160.12.239}}
+  - {name: 🇭🇰HK-20.187.115.236-95, server: cn-hk-az-2.okzdns.com, port: 3389, type: vmess, uuid: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: cn-hk-az-2.okzdns.com}}
+  - {name: 🇭🇰HK-182.160.12.239-96, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /6129CFHR, tls: false, ws-headers: {Host: 182.160.12.239}}
