@@ -1,1 +1,2 @@
 proxies:
+  - {name: 🇭🇰HK-182.160.12.239-92, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /ws, tls: false, ws-headers: {Host: 182.160.12.239}}
